@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-one{
+    background-clip:padding-box;
+    background: green;
+    color:#fff;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border:10px solid black;
+    margin-bottom: 50px;
+ 
+    
+}
+
+.box-two{
+    background: rgb(102, 71, 13);
+    color:#fff;
+    width: 250px;
+    height: 250px;
+   
+}
+a{
+    padding: 50px;
+}

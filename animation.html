@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body {
+            background: #eee;
+        }
+
+        .card {
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            line-height: 300px;
+            margin: -150px;
+            background: white;
+            color: #03446a;
+            text-align: center;
+            font-size: 40px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            animation-name: sample;
+            animation-duration: 4s;
+            animation-timing-function: ease cubic-bezier(0.6, 0.1, 1.0, 0.1);
+            animation-delay: 0s;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+
+        }
+
+
+        @keyframes sample {
+            0% {
+                border-radius: 0%;
+            }
+
+            50% {
+                background: green;
+            }
+
+            100% {
+                border-radius: 50%;
+                background: tomato;
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animation Practice</h1>
+    <div class="card">
+        Ikbal
+    </div>
+
+</body>
+
+</html>

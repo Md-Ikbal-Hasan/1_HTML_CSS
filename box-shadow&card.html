@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Card design</title>
+    <style>
+        .box {
+
+            width: 250px;
+            padding: 10px;
+            background-color: green;
+            box-shadow: 3px 3px 3px black;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .card-container {
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .card {
+            width: 300px;
+            margin: 10px;
+            box-sizing: border-box;
+            box-shadow: 1px 2px 4px black;
+        }
+
+        .img-style {
+            width: 100%;
+        }
+
+        .content {
+            text-align: center;
+            padding: 5px;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 5px;
+            background-color: rgb(211, 135, 20);
+            font-weight: 700;
+            border-radius: 5px;
+            margin-bottom: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Box Shadow and Card Design</h3>
+
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti pariatur sed maxime amet, suscipit autem
+            dignissimos recusandae ratione. Eligendi incidunt sunt eum illum veritatis sequi quaerat nemo ea quae Lorem
+            ipsum dolor, sit amet consectetur adipisicing elit. Aliquid beatae aperiam, facilis natus amet quasi
+            deserunt. Culpa eum fugit pariatur, molestias cumque in, exercitationem ut possimus voluptate id sequi
+            eaque.
+            itaque!</p>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <img class="img-style"
+                src="https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="">
+            <div class="content">
+                <h2>Watch</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facilis ipsam sequi atque, fugiat quo
+                    magni
+                    dignissimos quisquam, maiores cupiditate expedita eius? Et praesentium veniam iure odit nisi dolorum
+                    perspiciatis.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="img-style"
+                src="https://us.123rf.com/450wm/loonara/loonara1804/loonara180400015/98726306-elegant-young-business-mans-hand-with-fashion-no-brand-wrist-watch.jpg?ver=6"
+                alt="">
+            <div class="content">
+                <h2>Watch</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facilis ipsam sequi atque, fugiat quo
+                    magni
+                    dignissimos quisquam, maiores cupiditate expedita eius? Et praesentium veniam iure odit nisi
+                    dolorum.
+                </p>
+                <div class="card-footer">
+                    <button>Price: 590 Tk</button>
+                    <button>Buy Now</button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>

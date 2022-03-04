@@ -1,0 +1,102 @@
+/* css float and overflow
+
+.clearfix{
+    clear: both;;
+}
+
+img{
+    float: right;
+    width:40%;
+   
+    opacity: 1;
+    outline: 3px solid rgb(10, 22, 190);
+}
+
+
+
+.first-p{
+    background-color:Green;
+    border:1px solid red;
+    height:200px;
+    overflow:scroll;
+}
+
+.second-p{
+    background-color:rgb(197, 76, 39);
+    overflow: hidden;
+   
+}
+
+.third-p{
+    background-color: red;
+}
+
+ end of css float and overflow */
+
+ ul{
+     list-style-type:lower-alpha;
+ }
+
+ ul.nav{
+     list-style: none;
+     margin:0;
+     padding: 0;
+     display:flex;
+     justify-content:right;
+ }
+ ul.nav li{
+     background-color: green;
+     position: relative;
+ }
+ul.nav li a{
+    color:white;
+    text-decoration: none;
+    text-transform: none;
+    display:inline-block;
+    padding: 0.9375rem 1.4rem; 
+
+}
+ul.nav li:hover{
+    background-color: rgb(35, 7, 194);
+}
+
+ul.dropdown{
+     margin:0;
+     padding: 0;
+     list-style: none;
+     display: none;
+     position: absolute;
+     top:100%;
+}
+
+ul.nav li:hover ul.dropdown{
+    display: block;
+}
+
+
+ul.subdropdown{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: none;
+    position: absolute;
+    top:100%;
+}
+
+ul.nav li:hover ul.dropdown ul.subdropdown{
+    display:-webkit-flex;
+    position: right;
+}
+
+
+div{
+    background-image: url(https://www.daysoftheyear.com/wp-content/uploads/red-rose-day1.jpg);
+    background-size: cover;
+    border: 3px dashed red;
+    background-repeat: repeat-y;
+
+
+
+
+}
+    

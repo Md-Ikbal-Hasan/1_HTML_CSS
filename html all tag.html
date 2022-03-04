@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice</title>
+
+    <style>
+        table,
+        td,
+        th {
+            border: 2px solid green;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 300px;
+            height: 200px
+        }
+
+        form div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center; color: rgb(201, 15, 15) ">HTML Practice</h1>
+    <hr>
+
+    (a+b) <sup>2</sup> = a<sup>2</sup>+2ab +b<sup>2</sup> <br>
+    H<sub>2</sub>O <br>
+    <mark>Hello Mark</mark> <br>
+    <strong>Hello Strong</strong> <br>
+    <small>Hello Small</small> <br>
+    <ins> Hello Inserte Tag</ins> <br>
+    <del>Hello delete Tag</del>
+    <p>nbsp entity used for spacce . This is &nbsp; &nbsp; &nbsp; &nbsp; example &copy; &#128540; &#10084; </p>
+    <font>I Love Bangladesh</font>
+    <p style="font-family: cursive;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis
+        soluta molestias voluptates itaque? Quidem?</p>
+
+    <pre style="font-size: 1rem;">
+            #include <stdio.h>
+                int main()
+                {
+                   int num1, num2, sum;
+                   printf("Enter first number: ");
+                   scanf("%d", &num1);
+                   printf("Enter second number: ");
+                   scanf("%d", &num2);
+    
+                   sum = num1 + num2;
+                   printf("Sum of the entered numbers: %d", sum);
+                   return 0;
+                }
+        </pre>
+
+    <h3>My Skill</h3>
+    <ol type="1">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>JAVASCRIPT</li>
+        <li>Jquery</li>
+        <li>React</li>
+        <li>Git</li>
+    </ol>
+
+    <h3>My Language</h3>
+    <ol start=7>
+        <li>C</li>
+        <li>C++</li>
+        <li>PYTHON</li>
+
+    </ol>
+
+    <h3>Unorder List</h3>
+    <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>PYTHON</li>
+        <li>JAVA</li>
+    </ul>
+
+    <ul type="square">
+        <li>C</li>
+        <li>C++</li>
+        <li>PYTHON</li>
+        <li>JAVA</li>
+    </ul>
+
+    <img src="iqbal1.jpg" alt="Iqbal" height="400px" width="400px" border="10" title="Engr Md Ikbal Hosen" align="left"
+        hspace="30px" vspace="100px"> <br>
+
+    <iframe
+        src="https://md-ikbal-hasan.github.io/Easy-Shopping-Easy-Life/?fbclid=IwAR0nWylEYhQzLtHg_mVbNBjM6w6n5Y_LzR9xXWyXMyMAqw3SM2vim7suSQU"
+        frameborder="0" height="500px" width="70%"></iframe>
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oido7hS35Gs" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe> <br>
+
+    <a href="https://www.youtube.com/watch?v=Zz6dy7MoiPk" target="blank"> Bhool Bhulaiyaa | Dance Cover | Arpit x
+        Vijetha</a>
+
+
+    <div id="div1" style="background-color: green; height: 100px; width: 80%;">
+        <p>This is Div1 </p>
+    </div>
+
+
+    <div id="div2" style="background-color: red; height: 100px; width: 80%;">
+        <p>This is Div1 </p>
+    </div>
+
+    <div id="div3" style="background-color: purple; height: 100px; width: 80%;">
+        <p>This is Div1 </p>
+    </div>
+
+
+    <table>
+        <caption>Table Practice</caption>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">ID</th>
+                <th scope="col">CGPA</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Iqbal</td>
+                <td>317</td>
+                <td>3.69</td>
+            </tr>
+
+            <tr>
+                <td>Imran</td>
+                <td>318</td>
+                <td>3.69</td>
+            </tr>
+
+            <tr>
+                <td>Tanvir</td>
+                <td>320</td>
+                <td>3.69</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <h1>Form Practice</h1>
+    <form action="">
+        <div>
+            <label for="name">Name</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="id">ID</label>
+            <input type="number" name="id" id="id" required>
+        </div>
+
+        <div>
+            <label for="cgpa">CGPA</label>
+            <input type="number" name="cgpa" id="cgpa">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <label for="date">Date of Birth</label>
+            <input type="date" name="date" id="date">
+        </div>
+
+        <div>
+            <label for="photo">Photo</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+
+        <div>
+            <label for="religion">Religion</label>
+            <input type="checkbox" name="religion" value="islam" checked> Islam
+            <input type="checkbox" name="religion" value="hindu"> Hindu
+            <input type="checkbox" name="religion" value="Khristan"> Khristan
+        </div>
+
+        <div>
+            <label for="skill">Choose one of your best Skill</label>
+            <select name="skill" id="skill">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JS" selected>JS</option>
+                <option value="React JS">React JS</option>
+                <option value="Node JS">Node JS</option>
+                <option value="Express JS">Express JS</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="comment">Comment</label> <br>
+            <textarea placeholder="type your comment..." name="comment" id="comment" cols="50" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="button" value="Submit" disabled>
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+
+    <div>
+        <audio controls>
+            <source src="test.mp3" type="audio/mpeg">
+        </audio>
+    </div> <br>
+
+    <div>
+        <video src="dance.3gp" controls height="300px" width="250px"></video>
+    </div>
+
+    <h1>details and dummary tag intro</h1>
+    <details>
+        <summary>Summary of lorem</summary>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, repellat ducimus odit at repellendus
+        quasi nobis laborum eos atque fugiat perferendis. Repudiandae ex libero explicabo repellendus, molestias
+        doloribus deleniti vitae
+    </details>
+
+    <h3>figure and figcaption</h3>
+    <figure>
+        <img src="iqbal1.jpg" alt="Iqbal" height="400px" width="400px">
+        <figcaption>fig1: Iqbal Hosen</figcaption>
+    </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

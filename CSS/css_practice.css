@@ -1,0 +1,36 @@
+/* universal selector */
+
+
+
+/* tag selector */
+h1{
+    color: Green;
+}
+
+p.para{
+    color:blue;
+}
+
+
+/* class selector */
+.odd{
+    text-transform: uppercase;
+    color: darkmagenta;
+}
+
+.heading{
+    color:black;
+}
+/* ID selector */
+#first_id{
+    color:crimson;
+
+}
+/* attribute selector */
+[type="submit"]{
+    color:black;
+    padding:10px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: 800;
+}

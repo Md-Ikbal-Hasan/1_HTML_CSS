@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .cards {
+        width: 75%;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 30px;
+    }
+
+    .card {
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+        width: 100%;
+        height: 350px;
+
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .content {
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .content a {
+        margin-top: 10px;
+        text-decoration: none;
+        display: inline-block;
+        background-color: #d9563d;
+        color: #fff;
+        font-size: 17px;
+        padding: 5px 18px;
+        border-radius: 40px;
+        letter-spacing: 1.5px;
+
+    }
+</style>
+
+<body>
+
+
+    <div class="cards">
+        <!--All cards-->
+
+        <div class="card">
+            <img src="images/iqbal2.jpg" alt="Burger">
+            <div class="content">
+                <h2>MD Ikbal Hosen</h2>
+                <h3>Software Engineer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolore magni rem tempore alias
+                    molestias minus natus dolorum, nobis ex quam sequi veniam corporis! Commodi dolores odio cupiditate
+                    consectetur autem.</p>
+                <a href="#" class="button">Read More...</a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="images/iqbal2.jpg" alt="Burger">
+            <div class="content">
+                <h2>MD Ikbal Hosen</h2>
+                <h3>Software Engineer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolore magni rem tempore alias
+                    molestias minus natus dolorum, nobis ex quam sequi veniam corporis! Commodi dolores odio cupiditate
+                    consectetur autem.</p>
+                <a href="#" class="button">Read More...</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
