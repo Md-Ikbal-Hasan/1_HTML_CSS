@@ -7,39 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Z index & CSS Variable</title>
     <style>
-        :root {
+         :root {
             --primary-color: pink;
             --secondary-color: yellow;
         }
-
+        
         div {
             height: 250px;
             width: 250px;
-
         }
-
+        
         .div1 {
             background: rgb(34, 148, 62);
             position: absolute;
             z-index: 1;
             opacity: 0.7;
         }
-
+        
         .div2 {
             background: red;
             position: absolute;
             left: 150px;
             top: 250px;
             z-index: 2;
-
         }
-
+        
         .div3 {
             background: var(--primary-color);
             position: relative;
-
         }
-
+        
         .div4 {
             background: var(--secondary-color);
         }
@@ -49,9 +46,9 @@
 <body>
 
     <p>
-    <h1>Z index </h1> The z-index property specifies the stack order of an element. An element with greater stack
-    order is
-    always in front of an element with a lower stack order.</p>
+        <h1>Z index </h1> The z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order.</p>
+
+
     <div class="div1">div1</div>
     <div class="div2">div2</div>
     <div class="div-clear"></div>
